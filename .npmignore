@@ -3,3 +3,4 @@ coverage
 __tests__
 example.js
 *.log
+.circleci
