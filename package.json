@@ -6,6 +6,15 @@
   "repository": "git@github.com:ericadamski/git-ray.git",
   "author": "Eric Adamski <er.adamski@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "git",
+    "gitjs",
+    "rxjs",
+    "observable",
+    "node",
+    "nodejs",
+    "node git"
+  ],
   "scripts": {
     "test": "jest",
     "precommit": "pretty-quick"
