@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`.git should throw an error if no command is given or it is NOT a string 1`] = `"Refusing to run git. Invalid command undefined."`;
+
+exports[`.git should throw an error if no command is given or it is NOT a string 2`] = `"Refusing to run git. Invalid command ."`;
+
+exports[`.git should throw an error if no command is given or it is NOT a string 3`] = `"Refusing to run git. Invalid command [object Object]."`;
+
+exports[`.git should throw an error if no command is given or it is NOT a string 4`] = `"Refusing to run git. Invalid command 123."`;
+
+exports[`.git should throw an error if no command is given or it is NOT a string 5`] = `"Refusing to run git. Invalid command null."`;
+
+exports[`.git should throw an error if no command is given or it is NOT a string 6`] = `"Refusing to run git. Invalid command true."`;
+
+exports[`.git should throw an error if no command is given or it is NOT a string 7`] = `"Refusing to run git. Invalid command undefined."`;

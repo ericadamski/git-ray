@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`.spawn should throw an error on an Error Event 1`] = `[Error: The command '> ls -a -1' with options {"cwd":"/tmp","stdio":"inherit"} exited with code 128.]`;

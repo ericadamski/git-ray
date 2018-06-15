@@ -1,0 +1,4 @@
+coverage
+.prettierrc
+__tests__
+example.js
