@@ -1,0 +1,9 @@
+{
+  "name": "git-ray",
+  "version": "1.0.0",
+  "description": "💻🔫 - A nodejs library to call git commands written with RxJS",
+  "main": "index.js",
+  "repository": "git@github.com:ericadamski/git-ray.git",
+  "author": "Eric Adamski <er.adamski@gmail.com>",
+  "license": "MIT"
+}
