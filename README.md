@@ -23,6 +23,7 @@ Currently Supported Commands:
 - `git-clone`
 - `git-checkout`
 - `git-remote`
+- `git-fetch`
 
 All commands will have a function signature pattern like:
 

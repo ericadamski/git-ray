@@ -1,4 +1,13 @@
-const { clone, checkout, remote } = require('./index.js');
+const { clone, checkout, remote, fetch } = require('./index.js');
+
+fetch('origin', { stdio: 'inherit' }).subscribe({
+  next(process) {
+    console.log(`running: ${process.pid}`);
+  },
+  complete() {
+    console.log('Done `git fetch`.');
+  },
+});
 
 remote('git@github.com:ericadamski/git-ray.git', ['add', 'origin'], {
   stdio: 'inherit',
