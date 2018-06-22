@@ -21,6 +21,7 @@ or
 Currently Supported Commands:
 
 - `git-clone`
+- `git-pull`
 - `git-checkout`
 - `git-remote`
 - `git-fetch`

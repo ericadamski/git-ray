@@ -1,4 +1,13 @@
-const { clone, checkout, remote, fetch } = require('./index.js');
+const { clone, checkout, remote, fetch, pull } = require('./index.js');
+
+pull('origin',  { stdio: 'inherit' }).subscribe({
+  next(process) {
+    console.log(`running; ${process.pid}`);
+  },
+  complete() {
+    console.log('Done `git pull master`');
+  }
+});
 
 fetch('origin', { stdio: 'inherit' }).subscribe({
   next(process) {
@@ -42,3 +51,4 @@ checkout('test/branch', ['-b']).subscribe({
     console.log('Done `git checkout -b`.');
   },
 });
+
